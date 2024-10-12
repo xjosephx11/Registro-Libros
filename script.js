@@ -36,6 +36,8 @@ function agregarLibro(){
     elementoLI.appendChild(document.createTextNode(" "));
     elementoLI.appendChild(botonEliminar);
     elementoUL.appendChild(elementoLI);
+    //esto muestra el .listado de css, si hay libros
+    document.querySelector('.listado').style.display = 'block';
     alert("Libro agregado exitosamente!");
     limpiarEspacios();
 }

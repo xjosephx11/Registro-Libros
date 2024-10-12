@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Libros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Registro Digital de Libros</h2>
-    <label for="tituloLibro">Titulo del libro: </label>
-    <input type="text" id="tituloLibro">
-    <label for="autorLibro">Autor: </label>
-    <input type="text" id="autorLibro">
-    <label for="fechaPublicacion">Fecha de Publicacion</label>
-    <input type="date" id="fechaPublicacion">
-    <label for="generoLibro">Genero: </label>
-    <input type="text" id="generoLibro">
-    <label for="isbn">ISBN: </label>
-    <input type="text" id="isbn">
+    <div class="container">
+        <h2>Registro Digital de Libros</h2>
+        <label for="tituloLibro">Titulo del libro: </label>
+        <input type="text" id="tituloLibro">
+        <label for="autorLibro">Autor: </label>
+        <input type="text" id="autorLibro">
+        <label for="fechaPublicacion">Fecha de Publicacion</label>
+        <input type="date" id="fechaPublicacion">
+        <label for="generoLibro">Genero: </label>
+        <input type="text" id="generoLibro">
+        <label for="isbn">ISBN: </label>
+        <input type="text" id="isbn">
 
-    <button onclick="agregarLibro()">Agregar Libro</button>
-    <button onclick="mostrarLibros()">Listar Libros</button>
+        <div class="botones">
+            <button onclick="agregarLibro()">Agregar Libro</button>
+            <button onclick="mostrarLibros()">Listar Libros</button>
+        </div>
 
-    <ul id="librosEnPantalla"></ul>
+        <div class="listado">
+            <ul id="librosEnPantalla"></ul>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
