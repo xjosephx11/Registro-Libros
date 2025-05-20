@@ -53,10 +53,10 @@ li {
 button{
     width: 100px;
     height: 30px;
-    background-color: rgb(186, 191, 240);
+    background-color: rgb(73, 230, 126);
 }
 button:hover{
-    background-color: rgb(156, 164, 240);
+    background-color: rgb(60, 187, 102);
     text-decoration: underline;
     cursor: pointer;
 }
